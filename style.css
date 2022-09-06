@@ -248,7 +248,7 @@
 }
 /* Learning Style End */
 
-/* Registration  */
+/* Registration Style Start */
 .reg_container {
     background-color: #27ae60;
     padding: 80px;
@@ -289,9 +289,9 @@
 .reg_button:hover {
     transform: scale(1.2);
 }
-/* Registration  */
+/* Registration Style End */
 
-/* Student  */
+/* Student Style Start */
 .student_container {
     margin-bottom: 130px;
 }
@@ -346,9 +346,9 @@
 .student_button1:hover {
     transform: scale(1.2);
 }
-/* Student  */
+/* Student Style End */
 
-/* FeedBack  */
+/* FeedBack Style Start */
 .feedback_container {
     margin-bottom: 130px;
 }
@@ -411,8 +411,9 @@
     font-weight: bold;
     text-align: justify;
 }
+/* FeedBack Style End */
 
-/* Question Section */
+/* Question Style Start */
 .qes_container {
     margin-bottom: 130px;
 }
@@ -440,9 +441,9 @@
     width: 70%;
     margin: 0 auto;
 }
-/* Question Section */
+/* Question Style End */
 
-/* Company  */
+/* Company Logo Style Start */
 .company_conainer {
     margin-bottom: 130px;
 }
@@ -464,9 +465,9 @@
     font-size: 50px;
     color: #27ae60;
 }
-/* Company  */
+/* Company Logo Style End */
 
-/* Footer  */
+/* Footer Style Start */
 footer {
     background-color: black;
     height: 470px;
@@ -506,12 +507,12 @@ footer {
 .footer-icon:hover {
     color: red;
 }
-/* Footer  */
+/* Footer Style End */
 
-/* Responsive For Mobile */
+/* Responsive For Mobile Start*/
 @media screen and (max-width: 600px) {
 
-    /* Carousel  */
+    /* Carousel Start */
     .carousel-div {
         display: flex;
         flex-direction: column;
@@ -546,9 +547,9 @@ footer {
     .carousel-button {
         margin-top: 5px;
     }
-    /* Carousel  */
+    /* Carousel End */
 
-    /* Course  */
+    /* Course Start */
     .course-div img {
         width: 100%;
     }
@@ -557,9 +558,9 @@ footer {
         width: 70%;
         margin: 0 auto;
     }
-    /* Course  */
+    /* Course End */
 
-    /* Learning  */
+    /* Learning Start */
     .learning_container {
         display: flex;
         flex-direction: column;
@@ -605,9 +606,9 @@ footer {
     .read_button {
         width: 50%;
     }
-    /* Learning  */
+    /* Learning End */
 
-    /* Registration  */
+    /* Registration Start */
     .reg_container {
         display: flex;
         flex-direction: column;
@@ -616,9 +617,9 @@ footer {
     .reg_text {
         width: 100%;
     }
-    /* Registration  */
+    /* Registration End */
 
-    /* Student  */
+    /* Student Start */
     .student_div {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -636,9 +637,9 @@ footer {
         width: 50%;
         margin: 0 auto;
     }
-    /* Student  */
+    /* Student End */
 
-    /* Feedback  */
+    /* Feedback Start */
     .star_container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -652,9 +653,9 @@ footer {
     .feedback_text p {
         font-size: 15px;
     }
-    /* Feedback  */
+    /* Feedback End */
 
-    /* Accordion */
+    /* Accordion Start */
     .ques_accordion {
         width: 100%;
         margin: 0 auto;
@@ -667,15 +668,15 @@ footer {
     .ques_text p {
         font-size: 15px;
     }
-    /* Accordion */
+    /* Accordion End */
 
-    /* Company  */
+    /* Company Start */
     .company_conainer {
         display: none;
     }
-    /* Company  */
+    /* Company End */
 
-    /* Footer  */ 
+    /* Footer Start */ 
     footer {
         position: relative;
     }
@@ -686,13 +687,14 @@ footer {
         left: 22%;
     }
 
-    /* Footer */
+    /* Footer End */
 }
+/* Responsive For Mobile End*/
 
-/* Tablte Responsive  */
+/* Tablte Responsive Start */
 @media screen and (min-width:600px) and (max-width:990px) {
 
-    /* Carousel  */
+    /* Carousel Start */
     .carousel-div {
         display: flex;
         flex-direction: column;
@@ -715,16 +717,16 @@ footer {
     .carousel-button {
         margin-top: 20px;
     }
-    /* Carousel  */
+    /* Carousel End */
 
-    /* Course  */
+    /* Course Start */
     .show_button {
         width: 50%;
         margin: 0 auto;
     }
-    /* Course  */
+    /* Course End */
 
-    /* Learning  */
+    /* Learning Start */
     .outline_container {
         display: flex;
         gap: 25px;
@@ -755,9 +757,9 @@ footer {
     .read_button {
         width: 50%;
     }
-    /* Learning  */
+    /* Learning End */
 
-    /* Registration  */
+    /* Registration Start */
     .reg_container {
         display: flex;
         flex-direction: column;
@@ -766,9 +768,9 @@ footer {
     .reg_text {
         width: 100%;
     }
-    /* Registration  */
+    /* Registration End */
 
-     /* Student  */
+     /* Student Start */
      .student_div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -778,30 +780,30 @@ footer {
         width: 50%;
         margin: 0 auto;
     }
-    /* Student  */
+    /* Student End */
 
-    /* Feedback  */
+    /* Feedback Start */
     .star_container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 50px;
     }
-    /* Feedback  */
+    /* Feedback End */
 
-    /* Accordion */
+    /* Accordion Start */
     .ques_accordion {
         width: 100%;
         margin: 0 auto;
     }
-    /* Accordion */
+    /* Accordion End */
 
-    /* Company  */
+    /* Company Start */
     .company_conainer {
         display: none;
     }
-    /* Company  */
+    /* Company End */
 
-    /* Footer  */ 
+    /* Footer Start */ 
     footer {
         position: relative;
     }
@@ -812,5 +814,6 @@ footer {
         left: 34%;
     }
 
-    /* Footer */
+    /* Footer End */
 }
+/* Tablte Responsive End */
