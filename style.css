@@ -1,13 +1,14 @@
-/* Common  */
+/* Common Style Start*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
-/* Common */
+/* Common Style End */
 
-/* Navbar  */
+/* Navbar Style Start */
 .nav-container {
     margin-top: 10px;
     margin-bottom: 60px;
@@ -64,9 +65,9 @@
 .inbox-button:hover {
     transform: scale(1.2);
 }
-/* Navbar  */
+/* Navbar Style End  */
 
-/* Carousel  */
+/* Carousel Style Start */
 .cover-container {
     margin-bottom: 130px;
 }
@@ -126,9 +127,9 @@
 .carousel-button:hover {
     transform: scale(1.2);
 }
-/* Carousel  */
+/* Carousel Style End */
 
-/* Course  */
+/* Course Style Start */
 .course-container {
     margin-top: 50px;
 }
@@ -188,9 +189,9 @@
 .button:hover {
     transform: scale(1.2);
 }
-/* Course  */
+/* Course Style End */
 
-/* Learning  */
+/* Learning Style Start */
 .learning_container {
     display: flex;
     align-items: center;
@@ -245,7 +246,7 @@
 .read_button:hover {
     transform: scale(1.2);
 }
-/* Learning  */
+/* Learning Style End */
 
 /* Registration  */
 .reg_container {
@@ -514,7 +515,7 @@ footer {
     .carousel-div {
         display: flex;
         flex-direction: column;
-        height: 85%;
+        height: 70%;
         align-items: center;
     }
 
@@ -578,7 +579,8 @@ footer {
     }
     
     .learning_text {
-        margin-left: 5px;
+        margin-left: 0;
+        padding: 20px;
     }
     
     .learning_text h1 {
@@ -694,7 +696,7 @@ footer {
     .carousel-div {
         display: flex;
         flex-direction: column;
-        height: 60%;
+        height: 80%;
         align-items: center;
     }
 
