@@ -536,7 +536,7 @@ footer {
 
 .footer_container {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 40%;
 }
 
@@ -733,8 +733,8 @@ footer {
 
     .footer_container {
         position: absolute;
-        top: 30%;
-        left: 22%;
+        top: 20%;
+        left: 10%;
     }
     /* Footer End */
 }
@@ -859,8 +859,8 @@ footer {
 
     .footer_container {
         position: absolute;
-        top: 30%;
-        left: 34%;
+        top: 25%;
+        left: 22%;
     }
 
     /* Footer End */
